@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Git hub Search</string>
+    <string name="baseurl">https://jobs.github.com/positions.json?description=</string>
+    <string name="endurl"><![CDATA[&location=new+york]]></string>
+</resources>

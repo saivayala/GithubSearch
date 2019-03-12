@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="4dp"
+    android:layout_marginTop="8dp"
+    android:padding="8dp"
+    app:cardCornerRadius="16dp">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="#FFEBEE">
+    <ImageView
+
+
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+        android:id="@+id/image"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Job Title:"
+            android:textSize="16sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvjob"
+            android:textSize="16sp"
+            android:text="Job Title:"
+            android:textStyle="bold"
+            android:textColor="#000"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Job Location:"
+            android:textSize="16sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvlocation"
+            android:textSize="16sp"
+            android:text="Job Title:"
+            android:textStyle="bold"
+            android:textColor="#000"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="How to apply:"
+            android:textSize="16sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvapply"
+            android:textSize="16sp"
+            android:text="Job Title:"
+            android:textStyle="bold"
+            android:autoLink="web|email"
+            android:textColor="#0C87F3"/>
+    </LinearLayout>
+
+</LinearLayout>
+
+
+</android.support.v7.widget.CardView>
